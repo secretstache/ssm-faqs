@@ -9,7 +9,7 @@
  * Plugin Name: SSM FAQs
  * Plugin URI:  http://secretstache.com
  * Description: Enables an FAQ Custom Post Type.
- * Version:     0.1.0
+ * Version:     0.1.1
  * Author:      Secret Stache Media
  * Author URI:  http://secretstache.com
  * Text Domain: ssm-faqs
@@ -71,10 +71,10 @@ add_filter( 'enter_title_here', 'ssm_faq_change_title_text' );
 
 require plugin_dir_path( __FILE__ ) . 'includes/plugin_update_check.php';
 
-// $MyUpdateChecker = new PluginUpdateChecker_2_0 (
-//     'https://kernl.us/api/v1/updates/57a155031d2583841187809d/',
-//     __FILE__,
-//     'ssm-faqs',
-//     1
-// );
+$MyUpdateChecker = new PluginUpdateChecker_2_0 (
+    'https://kernl.us/api/v1/updates/5840625503e58a2d8b8c26bc/',
+    __FILE__,
+    'ssm-faqs',
+    1
+);
 // $MyUpdateChecker->purchaseCode = "somePurchaseCode";  <---- Optional!
