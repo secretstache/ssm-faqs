@@ -77,4 +77,3 @@ $MyUpdateChecker = new PluginUpdateChecker_2_0 (
     'ssm-faqs',
     1
 );
-// $MyUpdateChecker->purchaseCode = "somePurchaseCode";  <---- Optional!
